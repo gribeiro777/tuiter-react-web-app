@@ -1,0 +1,116 @@
+.wd-padded-left-16 {
+    padding-left: 16px;
+}
+.wd-padded-top-left-16 {
+    padding-top: 16px;
+    padding-left: 16px;
+}
+.wd-padded-top-left-8-16 {
+    padding-top: 8px;
+    padding-left: 16px;
+}
+.wd-padded-top-left-4-16 {
+    padding-top: 4px;
+    padding-left: 16px;
+}
+.wd-bg-color-black {
+    background-color: black;
+}
+.wd-bg-color-dark-grey {
+    background-color: rgb(36,52,71);
+    border: 0px;
+}
+.wd-border {
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(47,51,54);
+}
+.wd-border-no-bottom {
+    border-style: solid;
+    border-bottom: black;
+    border-width: 1px;
+    border-color: rgb(47,51,54);
+}
+.wd-border-no-top {
+    border-style: solid;
+    border-top: black;
+    border-width: 1px;
+    border-color: rgb(47,51,54);
+}
+.wd-rounded-corners-all-around {
+    border-radius: 50px;
+}
+.wd-float-left {
+    float: left;
+}
+.wd-float-right {
+    float: right;
+    height: 100px;
+}
+.wd-search-bar {
+    height: 40px;
+    width: 90%;
+    color: white;
+}
+::placeholder {
+    color: white;
+    opacity: 1;
+    font-family: arial;
+}
+.wd-settings-icon-size {
+    font-size: 40px;
+    color: rgb(29,161,242);
+    float: right;
+    padding-right: 16px;
+    position: relative;
+    bottom: 5px;
+}
+.wd-grid-row {
+    display: flex;
+    justify-content: space-between;
+}
+.wd-grid-col {
+    width: 16.67%;
+}
+.wd-selected-header {
+    font-family: arial;
+    color: rgb(29,161,242);
+    font-size: 15px;
+    font-weight: bold;
+    padding: 16px;
+    text-align: center;
+    border-bottom: 5px solid;
+    border-color: rgb(29,161,242);
+    cursor: pointer;
+}
+.wd-non-selected-header {
+    font-family: arial;
+    color: rgb(110,118,125);
+    font-size: 15px;
+    font-weight: bold;
+    padding: 16px;
+    text-align: center;
+    cursor: pointer;
+}
+.wd-subtopic {
+    font-family: arial;
+    font-size: 13px;
+    color: rgb(110,118,125)
+}
+.wd-verified-subtopic {
+    font-family: arial;
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+}
+.wd-topic {
+    font-family: arial;
+    font-size: 18px;
+    color: white;
+}
+.wd-tuit-image {
+    width: 100px;
+    height: 100px;
+    padding: 16px;
+    border-radius: 30px;
+}
