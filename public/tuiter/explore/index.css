@@ -1,116 +1,79 @@
-.wd-padded-left-16 {
-    padding-left: 16px;
+.column-padding {
+    padding: 8px 16px 8px;
 }
-.wd-padded-top-left-16 {
-    padding-top: 16px;
-    padding-left: 16px;
+.font-size {
+    font-size: 15px;
 }
-.wd-padded-top-left-8-16 {
+
+.bottom-padding {
+    padding-bottom: 8px;
+}
+
+.top-padding {
     padding-top: 8px;
-    padding-left: 16px;
+    border: white;
 }
-.wd-padded-top-left-4-16 {
-    padding-top: 4px;
-    padding-left: 16px;
+
+.bottom-padding-16 {
+    padding-bottom: 16px;
 }
-.wd-bg-color-black {
-    background-color: black;
-}
-.wd-bg-color-dark-grey {
-    background-color: rgb(36,52,71);
-    border: 0px;
-}
-.wd-border {
-    border-style: solid;
-    border-width: 1px;
-    border-color: rgb(47,51,54);
-}
-.wd-border-no-bottom {
-    border-style: solid;
-    border-bottom: black;
-    border-width: 1px;
-    border-color: rgb(47,51,54);
-}
-.wd-border-no-top {
-    border-style: solid;
-    border-top: black;
-    border-width: 1px;
-    border-color: rgb(47,51,54);
-}
-.wd-rounded-corners-all-around {
-    border-radius: 50px;
-}
-.wd-float-left {
-    float: left;
-}
-.wd-float-right {
-    float: right;
-    height: 100px;
-}
-.wd-search-bar {
-    height: 40px;
-    width: 90%;
-    color: white;
-}
-::placeholder {
-    color: white;
-    opacity: 1;
-    font-family: arial;
-}
-.wd-settings-icon-size {
-    font-size: 40px;
-    color: rgb(29,161,242);
-    float: right;
-    padding-right: 16px;
+
+.form{
     position: relative;
-    bottom: 5px;
 }
-.wd-grid-row {
-    display: flex;
-    justify-content: space-between;
+
+.form .fa-search{
+    position: absolute;
+    top:12px;
+    left: 20px;
+    color: black;
 }
-.wd-grid-col {
-    width: 16.67%;
+
+.form span{
+    position: absolute;
+    right: 17px;
+    top: 13px;
+    padding: 2px;
+    border-left: 1px solid #d1d5db;
 }
-.wd-selected-header {
-    font-family: arial;
-    color: rgb(29,161,242);
-    font-size: 15px;
+
+.form-input{
+    height: 40px;
+    text-indent: 45px;
+}
+
+.form .fa-cog {
+    color: blue;
+}
+
+.image-overlay {
     font-weight: bold;
-    padding: 16px;
-    text-align: center;
-    border-bottom: 5px solid;
-    border-color: rgb(29,161,242);
-    cursor: pointer;
+    line-height: 0;
+    font-size: 2em;
+    color: white;
 }
-.wd-non-selected-header {
-    font-family: arial;
-    color: rgb(110,118,125);
+
+.subtopic {
     font-size: 15px;
-    font-weight: bold;
-    padding: 16px;
-    text-align: center;
-    cursor: pointer;
-}
-.wd-subtopic {
-    font-family: arial;
-    font-size: 13px;
     color: rgb(110,118,125)
 }
-.wd-verified-subtopic {
-    font-family: arial;
-    font-size: 14px;
-    color: white;
+
+.topic {
+    font-size: 15px;
     font-weight: bold;
 }
-.wd-topic {
-    font-family: arial;
-    font-size: 18px;
-    color: white;
+
+.tuit-image {
+    width: 100%;
+    border-radius: 10px;
 }
-.wd-tuit-image {
-    width: 100px;
-    height: 100px;
-    padding: 16px;
-    border-radius: 30px;
+
+.tuit-button {
+    height: 36px;
+    min-width: 100px;
+    border-width: 0px;
+}
+
+.nav-bar {
+    width: fit-content;
 }
