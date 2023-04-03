@@ -18,10 +18,10 @@ const TuitStats = (
     const likeTuitHandler = () => {
         liked ? dispatch(updateTuitThunk({
             ...post,
-            likes: post.likes + 1
+            likes: post.likes - 1
         })) : dispatch(updateTuitThunk({
             ...post,
-            likes: post.likes - 1
+            likes: post.likes + 1
         }));
         setLiked(!liked);
     }
