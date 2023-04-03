@@ -1,6 +1,7 @@
 import React, {useState} from "react";
 import {useDispatch} from "react-redux";
 import {likeTuit, unlikeTuit} from "../tuits/tuits-reducer"
+import {updateTuitThunk} from "../../services/tuits-thunks";
 const TuitStats = (
     {
         post = {
@@ -15,7 +16,13 @@ const TuitStats = (
     const [liked, setLiked] = useState(post.liked);
     const dispatch = useDispatch();
     const likeTuitHandler = () => {
-        liked ? dispatch(unlikeTuit(post)) : dispatch(likeTuit(post));
+        liked ? dispatch(updateTuitThunk({
+            ...post,
+            likes: post.likes + 1
+        })) : dispatch(updateTuitThunk({
+            ...post,
+            likes: post.likes - 1
+        }));
         setLiked(!liked);
     }
     return(
